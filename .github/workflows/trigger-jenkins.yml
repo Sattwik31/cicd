@@ -15,8 +15,8 @@ jobs:
           curl -X POST "$JENKINS_URL/job/$JENKINS_JOB_NAME/build?token=$JENKINS_TRIGGER_TOKEN" \
             --user "$JENKINS_USER:$JENKINS_API_TOKEN"
         env:
-          JENKINS_URL: 'http://51.21.218.171:8080/'
+          JENKINS_URL: 'http://51.20.109.74:8080/'
           JENKINS_USER: 'Sattwik'
-          JENKINS_API_TOKEN: '113094f3449dca5c448c2647b286aa17d0'
+          JENKINS_API_TOKEN: '114e93e2ffc9d45232269fe32ebadd8f07'
           JENKINS_JOB_NAME: 'FreeStyleProject'
           JENKINS_TRIGGER_TOKEN: 'trigger-from-github'
